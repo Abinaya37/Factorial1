@@ -71,7 +71,7 @@ public class Base {
 
 		WebElement checkin = driver.findElement(By.xpath("(//input[@type='text'])[2]"));
 		clear(checkin);
-		send_Values(checkin, "28/11/2022");
+		send_Values(checkin, "15/11/2022");
 
 		WebElement checkout = driver.findElement(By.xpath("//input[@name='datepick_out']"));
 		clear(checkout);
